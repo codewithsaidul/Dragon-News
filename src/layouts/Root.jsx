@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 
 const Root = () => {
   return (
-    <div>
+    <div className='max-w-[1170px] font-allFont w-full mx-auto'>
         <Outlet/>
     </div>
   )
