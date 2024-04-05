@@ -7,7 +7,7 @@ import BreackingNews from "./BreackingNews";
 
 const Home = () => {
   return (
-    <div>
+    <div className="mb-10">
         <Header/>
 
         <BreackingNews/>
@@ -17,15 +17,15 @@ const Home = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
 
-        <div className="border">
+        <div className="border h-fit">
             <LeftSideNav/>
         </div>
 
-        <div className="lg:col-span-2 border">
+        <div className="lg:col-span-2 border h-fit">
             <h2 className="text-4xl">News Comming Soon</h2>
         </div>
 
-        <div className="border">
+        <div className="border h-fit">
             <RightSideNav/>
         </div>
 
